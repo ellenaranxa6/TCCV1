@@ -4,6 +4,13 @@
 # – Seleção da NF ótima (menor kW interrompido)
 # – Compatível com execução no COLAB
 # =============================================================
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"status": "backend ok 🎉"}
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
