@@ -12,7 +12,7 @@ st.title("⚡ Plataforma Interativa – IEEE 123 Bus")
 st.write("Selecione um vão e deixe o backend decidir a chave ótima.")
 
 # 👉 Ajuste aqui a URL do SEU backend (NGROK)
-BACKEND_URL = "https://SEU-NGROK.ngrok-free.app"
+BACKEND_URL = "https://unportrayable-salina-transinsular.ngrok-free.dev/"
 
 # ====================================
 # FUNÇÕES AUXILIARES
