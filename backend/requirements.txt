@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+py-dss-interface
+opendssdirect.py
+pydantic
