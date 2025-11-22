@@ -21,10 +21,13 @@ st.title("⚡ Plataforma Interativa – Isolamento Real IEEE-123")
 # 1) CARREGAR ARQUIVOS
 ###############################################################
 
-BASE = "./123Bus/"
+# Caminho fixo para o Streamlit Cloud
+BASE   = "/mount/src/tccv1/123Bus/"
+
 MASTER = BASE + "IEEE123Master.dss"
 COORDS = BASE + "BusCoords.dat"
-LOADS  = BASE + "IEEE123Loads.dss"
+LOADS  = BASE + "IEEE123Loads.DSS"
+RUN    = BASE + "Run_IEEE123Bus.DSS"
 
 if not os.path.exists(MASTER):
     st.error("❌ Arquivo Master não encontrado.")
