@@ -121,7 +121,7 @@ except:
     st.sidebar.error("Falha ao carregar modelo DSS.")
     st.stop()
 
-coords = load_coordinates()
+coords = load_coordinates(COORDS)
 loads  = load_loads()
 
 ###############################################################
